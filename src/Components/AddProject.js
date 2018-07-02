@@ -2,8 +2,23 @@ import React, { Component } from 'react';
 
 
 class AddProject extends Component {
+  constructor(){
+    super();
+    this.state = {
+      newProject:{}
+    }
+  }
   static defaultProps = {
     categories: ['Web Design', 'Web Development', 'Mobile Development']
+  }
+  handleSubmit(e){
+    if(this.refs.title.value === ''){
+      alert("Title is requried");
+
+    } else {
+
+    }
+    e.preventDefault();
   }
 
   render() {
@@ -13,10 +28,10 @@ class AddProject extends Component {
     return (
       <div>
        <h3>Add Project</h3>
-       <form>
+       <form onSubmit={this.handleSubmit.bind(this)}>
             <div>
               <label>Title</label><br />
-              <input type="text" ref="Title" />
+              <input type="text" ref="title" />
             </div>
             <div>
               <label>category</label>
@@ -25,6 +40,7 @@ class AddProject extends Component {
                {categoryOptions}
                </select>
             </div>
+            <input type="submit" value="Submit" />
         </form>
       </div>
     );
