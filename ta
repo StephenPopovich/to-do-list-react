@@ -1,0 +1,35 @@
+[33mcommit 99a190fcfe789ca5fddb3785474dab92458e31ac[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: StephenPopovich <stephenpopovich16@gmail.com>
+Date:   Mon Jul 2 14:12:50 2018 -0700
+
+    final commit, done
+
+[33mcommit 463446b1a7eeb5d1d7dc3193e3364ae6cd794ade[m
+Author: StephenPopovich <stephenpopovich16@gmail.com>
+Date:   Mon Jul 2 13:50:46 2018 -0700
+
+    add remove button
+
+[33mcommit 9ebd2fefa85d1ae13dddb6e5a69a5cbc77e11643[m
+Author: StephenPopovich <stephenpopovich16@gmail.com>
+Date:   Mon Jul 2 09:41:05 2018 -0700
+
+    add submit button and empty validation
+
+[33mcommit 30dc07db3c65779035ed9d00150c5186d77d4ea3[m
+Author: StephenPopovich <stephenpopovich16@gmail.com>
+Date:   Sat Jun 30 21:38:37 2018 -0700
+
+    add form for title and category
+
+[33mcommit 5fa145f0c3cbdd70c6b7d5a8c7c0f1bbef06bb7c[m
+Author: StephenPopovich <stephenpopovich16@gmail.com>
+Date:   Sat Jun 30 20:10:24 2018 -0700
+
+    add basic list
+
+[33mcommit 1051d98690ccd609f30372f72921103e16d1e740[m[33m ([m[1;31morigin/releases/rel_5.4.1[m[33m)[m
+Author: StephenPopovich <stephenpopovich16@gmail.com>
+Date:   Sat Jun 30 19:03:09 2018 -0700
+
+    first commit
